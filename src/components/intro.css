@@ -71,5 +71,34 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 480px) {
+    .i {
+        flex-direction: column;
+    }
+    .i-left-wrapper {
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .i-desc {
+        display: none;
+    }
+    .i-title-item {
+        justify-content: center;
+    }
+    .i-image {
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+    }
+
+
+
+    
+   
+}
+
 
 
