@@ -96,7 +96,10 @@
     .a-sub {
         display: none;
     }
-
+    @media screen and (max-width: 768px) {
+     .i-name {
+         font-size: 30px;
+     }
 
 
     
@@ -104,4 +107,4 @@
 }
 
 
-
+}
