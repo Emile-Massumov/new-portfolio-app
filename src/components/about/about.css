@@ -86,5 +86,15 @@ color: rgb(88, 82, 82);
     .a-award-title {
         padding: 20px 0px;
     }
+    .a-desc {
+        text-align: justify;
+        padding: 20px;
+    }
+    .a-title {
+        margin-top: 10px;
+    }
+    .a-left {
+        width: 500px;
+    }
    
 }

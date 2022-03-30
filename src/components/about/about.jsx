@@ -20,20 +20,13 @@ const About = () => {
     ut labore et dolore magna aliqua. 
     </p>
     <p className="a-desc">
-    Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt 
-    ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam,
-     quis nostrud exercitation ullamco 
-     laboris nisi ut aliquip ex ea commodo 
-     consequat. Duis aute irure dolor in
-      reprehenderit in voluptate velit 
-      esse cillum dolore eu fugiat nulla 
-      pariatur. Excepteur sint occaecat
-       cupidatat non proident, sunt in
-        culpa qui officia deserunt 
-    mollit anim id est laborum.
+    Bonjour!
+
+I'm Émile - a Front-End Developer from Montréal, Canada.
+I have finished the Skillcrush Front-End Development course 
+which gave me a knowledge of HTML-CSS & how to use 
+JavaScript & React JS. With every line of code, 
+I strive to make the web a beautiful place.
     </p>
     <div className="a-award">
     <img src={Skills} alt="" className="a-award-img" />

@@ -93,6 +93,9 @@
         height: 80%;
         border-radius: 10px;
     }
+    .a-sub {
+        display: none;
+    }
 
 
 
