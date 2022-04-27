@@ -2,6 +2,10 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Adress from "../../img/address.png";
+import Insta from "../../img/insta.png";
+import Linked from "../../img/linked.png";
+import Github from "../../img/github.png";
+
 import { ThemeContext } from "../../context";
 import { useContext } from "react";
 
@@ -27,9 +31,24 @@ const Contact = () => {
            />
         dilshadca@gmail.com
          </div>
+         <div className="insta-wrapper">
+         <div className="c-info-item">
+               <img src={Github} alt="" className="c-icon-insta"
+               />
+               </div>
+         <div className="c-info-item">
+               <img src={Insta} alt="" className="c-icon-insta"
+               />
+               </div>
+               <div className="c-info-item">
+               <img src={Linked} alt="" className="c-icon-insta"
+               />
+               </div>
+               </div>
          <div className="c-info-item">
             <img src={Adress} alt="" className="c-icon" 
            />
+           
         Montréal, Québec, CA
          </div>
     </div>

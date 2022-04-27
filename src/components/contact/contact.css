@@ -37,6 +37,15 @@
     height: 30px;
     margin-right: 20px;
 }
+.c-icon-insta {
+    width: 60px;
+    height: 60px;
+}
+.insta-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-right:100px;
+}
 
 form {
     margin-top: 20px;
@@ -74,6 +83,9 @@ button {
     }
     .c-info-item {
         margin: 20px 0px;
+        width: 100%;
+    }
+    .insta-wrapper {
         width: 100%;
     }
     form {
