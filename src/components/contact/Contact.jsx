@@ -33,16 +33,19 @@ const Contact = () => {
          </div>
          <div className="insta-wrapper">
          <div className="c-info-item">
+             <a href="https://github.com/Emile-Massumov">
                <img src={Github} alt="" className="c-icon-insta"
-               />
+               /></a>
                </div>
          <div className="c-info-item">
-               <img src={Insta} alt="" className="c-icon-insta"
-               />
+         <a href="https://www.instagram.com/emiledilmassumov/">
+           <img src={Insta} alt="" className="c-icon-insta"
+               /></a>
                </div>
                <div className="c-info-item">
+                   <a href="https://www.linkedin.com/in/%C3%A9mile-massumov-aa9142212/">
                <img src={Linked} alt="" className="c-icon-insta"
-               />
+               /></a>
                </div>
                </div>
          <div className="c-info-item">
