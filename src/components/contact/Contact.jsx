@@ -37,8 +37,9 @@ const Contact = () => {
                />
                </div>
          <div className="c-info-item">
+             <a href="https://www.instagram.com/emiledilmassumov/">
                <img src={Insta} alt="" className="c-icon-insta"
-               />
+               /></a>
                </div>
                <div className="c-info-item">
                <img src={Linked} alt="" className="c-icon-insta"
